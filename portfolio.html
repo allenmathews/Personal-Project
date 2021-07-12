@@ -1,0 +1,221 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <style>
+        body {
+            --teal: #448885;
+            --grey: #666666;
+            font-family: "Georgia";
+            background-image: url()
+            background-repeat: repeat;
+        }
+
+        .navbar {
+            min-height: 75px;
+        }
+
+        .navbar-light .navbar-brand {
+            background-color: var(--teal);
+            color: white;
+            height: 100%;
+            min-height: 50px;
+            top: 0;
+            font-size: 30px;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .navbar-nav {
+            font-family: Arial;
+        }
+
+        h1 {
+            color: var(--teal);
+        }
+
+        .figure {
+            overflow: hidden;
+            position: relative;
+            height: 539px;
+            width: 539px;
+        }
+
+        .figure-caption {
+            background-color: var(--teal);
+            position: absolute;
+            width: 100%;
+            bottom: 5%;
+        }
+
+        .image-caption {
+            font-size: 18px;
+            color: white;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .footer {
+            background-color: var(--grey);
+            position: relative;
+        }
+
+        .footer:before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: 0;
+            height: 8px;
+            background-color: var(--teal);
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column h-100">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+        <div class="container">
+            <div class="row w-100">
+                <a class="navbar-brand" href="#">Allen Mathews</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container shadow-sm p-3 mb-5 mt-5 bg-white">
+        <h1>Portfolio</h1>
+        <hr class="my-4">
+    <div class="row grid">
+    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+        <div class="our-project">
+            <div class="img">
+                <a class="test-popup-link" href="./img/tech1.jpg">
+                    <img src="./img/tech1.jpg" alt="portfolio-1" class="img-fluid">
+                </a>
+            </div>
+            <div class="title py-4">
+                <h4 class="text-uppercase">Fastrack Courses</h4>
+                <span class="text-secondary">Latest Courses</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+        <div class="our-project">
+            <div class="img">
+                <a class="test-popup-link" href="./img/Tech2.jpg">
+                    <img src="./img/Tech2.jpg" alt="portfolio-2" class="img-fluid">
+                </a>
+            </div>
+            <div class="title py-4">
+                <h4 class="text-uppercase">Network</h4>
+                <span class="text-secondary">Popular Networks</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+        <div class="our-project">
+            <div class="img">
+                <a class="test-popup-link" href="./img/Tech3.jpeg">
+                    <img src="./img/Tech3.jpeg" alt="portfolio-3" class="img-fluid">
+                </a>
+            </div>
+            <div class="title py-4">
+                <h4 class="text-uppercase">Social Media</h4>
+                <span class="text-secondary">Stay Connected</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+        <div class="our-project">
+            <div class="img">
+                <a class="test-popup-link" href="./img/Tech4.jpg">
+                    <img src="./img/Tech4.jpg" alt="portfolio-4" class="img-fluid">
+                </a>
+            </div>
+            <div class="title py-4">
+                <h4 class="text-uppercase">Innovation</h4>
+                <span class="text-secondary">An idea can change your life</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+        <div class="our-project">
+            <div class="img">
+                <a class="test-popup-link" href="./img/Tech5.jpg">
+                    <img src="./img/Tech5.jpg" alt="portfolio-5" class="img-fluid">
+                </a>
+            </div>
+            <div class="title py-4">
+                <h4 class="text-uppercase">Blockchain</h4>
+                <span class="text-secondary">Upcoming Technology</span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+        <div class="our-project">
+            <div class="img">
+                <a class="test-popup-link" href="./img/Tech6.jpg">
+                    <img src="./img/Tech6.jpg" alt="portfolio-6" class="img-fluid">
+                </a>
+            </div>
+            <div class="title py-4">
+                <h4 class="text-uppercase">Artificial Intelligence</h4>
+                <span class="text-secondary">Machine Learning</span>
+            </div>
+        </div>
+</div>
+</div>
+</section>
+
+</div>
+</div>
+
+<footer class="footer mt-auto py-3">
+    <div class="bar"></div>
+    <div class="container">
+        <span class="text-muted">Dynamic Responsive Website</span>
+    </div>
+</footer>
+
+</body>
+
+</html>
